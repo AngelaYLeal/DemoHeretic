@@ -997,8 +997,8 @@
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>9</HotspotX>
-        <HotspotY>5</HotspotY>
+        <HotspotX>16</HotspotX>
+        <HotspotY>8</HotspotY>
         <ID>0</ID>
         <Image>7</Image>
         <Name xml:space="preserve">Walk to</Name>
@@ -1010,8 +1010,8 @@
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>12</HotspotX>
-        <HotspotY>11</HotspotY>
+        <HotspotX>21</HotspotX>
+        <HotspotY>20</HotspotY>
         <ID>1</ID>
         <Image>3</Image>
         <Name xml:space="preserve">Look at</Name>
@@ -1163,6 +1163,20 @@
         <PointSize>0</PointSize>
         <SizeMultiplier>1</SizeMultiplier>
         <SourceFilename />
+        <TTFMetricsFixup>None</TTFMetricsFixup>
+        <VerticalOffset>0</VerticalOffset>
+      </Font>
+      <Font>
+        <AutoOutlineStyle>Squared</AutoOutlineStyle>
+        <AutoOutlineThickness>1</AutoOutlineThickness>
+        <ID>3</ID>
+        <LineSpacing>0</LineSpacing>
+        <Name xml:space="preserve">Font 3</Name>
+        <OutlineFont>0</OutlineFont>
+        <OutlineStyle>Automatic</OutlineStyle>
+        <PointSize>0</PointSize>
+        <SizeMultiplier>1</SizeMultiplier>
+        <SourceFilename xml:space="preserve">RECURSOS AGS/Fuentes/Fuentes extendidas/Fuentes extendidas/AGSFNT3.WFN</SourceFilename>
         <TTFMetricsFixup>None</TTFMetricsFixup>
         <VerticalOffset>0</VerticalOffset>
       </Font>
@@ -2622,13 +2636,13 @@
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="3" Width="32" Height="30" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="3" Width="40" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>RECURSOS AGS/Cursores/CURSORES SIN FONDO BLANCO/cursor_LookAt.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>30</ImportHeight>
-                  <ImportWidth>32</ImportWidth>
+                  <ImportHeight>40</ImportHeight>
+                  <ImportWidth>40</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>True</RemapToGamePalette>
@@ -2686,13 +2700,13 @@
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="7" Width="31" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="7" Width="32" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
-                  <FileName>RECURSOS AGS/Cursores/CURSORES SIN FONDO BLANCO/cursor_WalkTo.png</FileName>
+                  <FileName>RECURSOS AGS/Cursores/CURSORES SIN FONDO BLANCO/pixil-frame-0.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
                   <ImportHeight>32</ImportHeight>
-                  <ImportWidth>31</ImportWidth>
+                  <ImportWidth>32</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>True</RemapToGamePalette>
