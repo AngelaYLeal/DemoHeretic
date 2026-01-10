@@ -683,7 +683,7 @@
               <ID>0</ID>
               <Left>0</Left>
               <Name>gPanelCodigo</Name>
-              <OnClick>gPanelCodigo_OnClick</OnClick>
+              <OnClick />
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
               <ScriptModule>GlobalScript.asc</ScriptModule>
@@ -708,7 +708,7 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnP1</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick>Button1_OnClick</OnClick>
+                <OnClick>btnP1_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text>1</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
@@ -736,7 +736,7 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnP2</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick>Button2_OnClick</OnClick>
+                <OnClick>btnP2_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text>2</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
@@ -764,7 +764,7 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnP3</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick />
+                <OnClick>btnP3_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text>3</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
@@ -792,7 +792,7 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnP4</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick>Button4_OnClick</OnClick>
+                <OnClick>btnP4_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text>4</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
@@ -820,7 +820,7 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnP5</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick />
+                <OnClick>btnP5_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text>5</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
@@ -848,7 +848,7 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnP6</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick />
+                <OnClick>btnP6_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text>6</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
@@ -876,7 +876,7 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnP7</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick>Button7_OnClick</OnClick>
+                <OnClick>btnP7_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text>7</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
@@ -904,7 +904,7 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnP8</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick />
+                <OnClick>btnP8_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text>8</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
@@ -932,7 +932,7 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnP9</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick />
+                <OnClick>btnP9_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text>9</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
@@ -960,7 +960,7 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnP0</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick />
+                <OnClick>btnP0_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text>0</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
@@ -988,7 +988,7 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnPBorrar</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick>Button11_OnClick</OnClick>
+                <OnClick>btnPBorrar_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text>Borrar</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
@@ -1016,7 +1016,7 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnPAceptar</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick />
+                <OnClick>btnPAceptar_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text>Aceptar</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
@@ -1044,7 +1044,7 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnPCancelar</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick />
+                <OnClick>btnPCancelar_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text>Cancelar</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
@@ -1064,7 +1064,7 @@
                 <Font>0</Font>
                 <Height>33</Height>
                 <ID>13</ID>
-                <Left>49</Left>
+                <Left>51</Left>
                 <Locked>False</Locked>
                 <Name>Lb1</Name>
                 <Text>-</Text>
@@ -1074,7 +1074,7 @@
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>37</Width>
-                <ZOrder>14</ZOrder>
+                <ZOrder>17</ZOrder>
               </GUILabel>
               <GUILabel>
                 <Clickable>True</Clickable>
@@ -1092,7 +1092,7 @@
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>37</Width>
-                <ZOrder>15</ZOrder>
+                <ZOrder>16</ZOrder>
               </GUILabel>
               <GUILabel>
                 <Clickable>True</Clickable>
@@ -1110,7 +1110,7 @@
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>37</Width>
-                <ZOrder>16</ZOrder>
+                <ZOrder>15</ZOrder>
               </GUILabel>
               <GUILabel>
                 <Clickable>True</Clickable>
@@ -1128,12 +1128,12 @@
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>37</Width>
-                <ZOrder>17</ZOrder>
+                <ZOrder>14</ZOrder>
               </GUILabel>
               <GUIButton>
-                <ClickAction>RunScript</ClickAction>
+                <ClickAction>NoAction</ClickAction>
                 <Clickable>False</Clickable>
-                <ClipImage>False</ClipImage>
+                <ClipImage>True</ClipImage>
                 <Enabled>False</Enabled>
                 <Font>3</Font>
                 <Height>47</Height>
@@ -1142,13 +1142,13 @@
                 <Left>41</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
-                <Name>Button14</Name>
+                <Name>btnPanel</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick />
                 <PushedImage>0</PushedImage>
                 <Text xml:space="preserve"> Introduzca el PIN</Text>
                 <TextAlignment>TopLeft</TextAlignment>
-                <TextColor>65535</TextColor>
+                <TextColor>59229</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
                 <Top>18</Top>
@@ -1440,7 +1440,7 @@
             <ScriptName>cPaxton</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>64536</SpeechColor>
             <SpeechView>0</SpeechView>
             <StartX>61</StartX>
             <StartY>408</StartY>
@@ -1484,7 +1484,7 @@
             <ScriptName>cBarnes</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>1048</SpeechColor>
             <SpeechView>0</SpeechView>
             <StartX>70</StartX>
             <StartY>470</StartY>
@@ -1528,7 +1528,7 @@
             <ScriptName>cSrReed</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>48599</SpeechColor>
             <SpeechView>0</SpeechView>
             <StartX>581</StartX>
             <StartY>410</StartY>
