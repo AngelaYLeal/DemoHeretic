@@ -21,7 +21,7 @@
   </Component>
   <WorkspaceState>
     <LastBuildConfiguration>Debug</LastBuildConfiguration>
-    <LastBuildGameFileName>_Debug=DemoHeretic,</LastBuildGameFileName>
+    <LastBuildGameFileName>_Debug=DemoHeretic,DataFile=DemoHeretic,Windows=DemoHeretic,</LastBuildGameFileName>
     <RequiresRebuild>False</RequiresRebuild>
   </WorkspaceState>
 </AGSEditorUserData>
