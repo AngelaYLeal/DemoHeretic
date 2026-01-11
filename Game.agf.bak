@@ -666,6 +666,10 @@
             <Description IsNull="True" />
             <Number>3</Number>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Description xml:space="preserve">SALÓN (armario abierto)</Description>
+            <Number>4</Number>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -1379,6 +1383,46 @@
               </GUIButton>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>528</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <BorderColor>0</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>200</Height>
+              <ID>2</ID>
+              <Left>120</Left>
+              <Name>gInv</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ScriptModule>GlobalScript.asc</ScriptModule>
+              <Top>140</Top>
+              <Transparency>0</Transparency>
+              <Visible>True</Visible>
+              <Width>400</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls>
+              <GUIInventory>
+                <CharacterID>-1</CharacterID>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Height>156</Height>
+                <ID>0</ID>
+                <ItemHeight>20</ItemHeight>
+                <ItemWidth>30</ItemWidth>
+                <Left>17</Left>
+                <Locked>False</Locked>
+                <Name>InventoryWindow1</Name>
+                <Top>20</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>358</Width>
+                <ZOrder>0</ZOrder>
+              </GUIInventory>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -1453,6 +1497,144 @@
                 <ID>4</ID>
                 <Image>80</Image>
                 <Name>iAbrigoBarnes</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <ScriptModule>GlobalScript.asc</ScriptModule>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+            </InventoryItems>
+          </InventoryItemFolder>
+          <InventoryItemFolder Name="Inventario Room1">
+            <SubFolders />
+            <InventoryItems>
+              <InventoryItem>
+                <CursorImage>22</CursorImage>
+                <Description xml:space="preserve">ESTRELLA DE DAVID</Description>
+                <HotspotX>15</HotspotX>
+                <HotspotY>9</HotspotY>
+                <ID>5</ID>
+                <Image>22</Image>
+                <Name>iEstrella</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <ScriptModule>GlobalScript.asc</ScriptModule>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <CursorImage>30</CursorImage>
+                <Description xml:space="preserve">FIGURA DE LA VIRGEN MARÍA</Description>
+                <HotspotX>15</HotspotX>
+                <HotspotY>7</HotspotY>
+                <ID>6</ID>
+                <Image>30</Image>
+                <Name>iVirgenMaria</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <ScriptModule>GlobalScript.asc</ScriptModule>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <CursorImage>101</CursorImage>
+                <Description xml:space="preserve">FIGURA DE LA LUNA</Description>
+                <HotspotX>11</HotspotX>
+                <HotspotY>9</HotspotY>
+                <ID>7</ID>
+                <Image>101</Image>
+                <Name>iLuna</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <ScriptModule>GlobalScript.asc</ScriptModule>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <CursorImage>17</CursorImage>
+                <Description>CERILLAS</Description>
+                <HotspotX>13</HotspotX>
+                <HotspotY>12</HotspotY>
+                <ID>8</ID>
+                <Image>17</Image>
+                <Name>iCerilla</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <ScriptModule>GlobalScript.asc</ScriptModule>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <CursorImage>27</CursorImage>
+                <Description xml:space="preserve">UN PAPEL</Description>
+                <HotspotX>14</HotspotX>
+                <HotspotY>13</HotspotY>
+                <ID>9</ID>
+                <Image>27</Image>
+                <Name>iPapel</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <ScriptModule>GlobalScript.asc</ScriptModule>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <CursorImage>26</CursorImage>
+                <Description xml:space="preserve">UN PAPEL CON ALGO ESCRITO</Description>
+                <HotspotX>14</HotspotX>
+                <HotspotY>12</HotspotY>
+                <ID>10</ID>
+                <Image>26</Image>
+                <Name>iPapelMensaje</Name>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <Properties />
+                <Interactions>
+                  <ScriptModule>GlobalScript.asc</ScriptModule>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <CursorImage>0</CursorImage>
+                <Description>LLAVE</Description>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <ID>11</ID>
+                <Image>0</Image>
+                <Name>iLlave</Name>
                 <PlayerStartsWithItem>False</PlayerStartsWithItem>
                 <Properties />
                 <Interactions>
