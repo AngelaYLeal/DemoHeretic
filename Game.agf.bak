@@ -1180,7 +1180,7 @@
               <ScriptModule>GlobalScript.asc</ScriptModule>
               <Top>400</Top>
               <Transparency>0</Transparency>
-              <Visible>True</Visible>
+              <Visible>False</Visible>
               <Width>640</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
@@ -1381,7 +1381,7 @@
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
               <ScriptModule>GlobalScript.asc</ScriptModule>
-              <Top>0</Top>
+              <Top>50</Top>
               <Transparency>0</Transparency>
               <Visible>False</Visible>
               <Width>120</Width>
@@ -1872,7 +1872,7 @@
         <SubFolders />
         <Characters>
           <Character>
-            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustSpeedWithScaling>True</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
             <AnimationDelay>4</AnimationDelay>
             <BlinkingView>0</BlinkingView>
@@ -1894,8 +1894,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>64536</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>566</StartX>
-            <StartY>400</StartY>
+            <StartX>555</StartX>
+            <StartY>390</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -2857,7 +2857,7 @@ stop
               </SpriteFolder>
               <SpriteFolder Name="Personajes">
                 <SubFolders>
-                  <SpriteFolder Name="Paxton">
+                  <SpriteFolder Name="PaxtonAbrigo">
                     <SubFolders />
                     <Sprites>
                       <Sprite Slot="2" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
@@ -3054,16 +3054,16 @@ stop
                       </Sprite>
                     </Sprites>
                   </SpriteFolder>
-                  <SpriteFolder Name="Barnes">
+                  <SpriteFolder Name="BarnesAbrigo">
                     <SubFolders />
                     <Sprites>
-                      <Sprite Slot="31" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="18" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Samsagaz-BARNES/Samsagaz-001.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/BarnesChaqueta/Barnes1C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3073,13 +3073,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="32" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="19" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Samsagaz-BARNES/Samsagaz-002.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/BarnesChaqueta/Barnes2C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3089,13 +3089,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="33" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="20" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Samsagaz-BARNES/Samsagaz-003.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/BarnesChaqueta/Barnes3C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3105,13 +3105,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="34" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="21" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Samsagaz-BARNES/Samsagaz-004.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/BarnesChaqueta/Barnes4C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3121,13 +3121,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="35" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="31" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Samsagaz-BARNES/Samsagaz-005.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/BarnesChaqueta/Barnes5C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3137,13 +3137,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="36" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="32" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Samsagaz-BARNES/Samsagaz-006.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/BarnesChaqueta/Barnes6C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3153,13 +3153,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="37" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="33" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Samsagaz-BARNES/Samsagaz-007.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/BarnesChaqueta/Barnes7C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3169,13 +3169,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="38" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="34" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Samsagaz-BARNES/Samsagaz-008.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/BarnesChaqueta/Barnes8C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3185,13 +3185,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="39" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="35" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Samsagaz-BARNES/Samsagaz-009.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/BarnesChaqueta/Barnes9C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3201,13 +3201,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="40" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="36" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Samsagaz-BARNES/Samsagaz-010.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/BarnesChaqueta/Barnes10C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3217,13 +3217,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="41" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="37" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Samsagaz-BARNES/Samsagaz-011.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/BarnesChaqueta/Barnes11C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3233,13 +3233,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="42" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="38" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Samsagaz-BARNES/Samsagaz-012.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/BarnesChaqueta/Barnes12C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3249,13 +3249,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="43" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="39" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Samsagaz-BARNES/Samsagaz-013.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/BarnesChaqueta/Barnes13C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3265,13 +3265,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="44" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="40" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Samsagaz-BARNES/Samsagaz-014.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/BarnesChaqueta/Barnes14C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3281,13 +3281,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="45" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="41" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Samsagaz-BARNES/Samsagaz-015.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/BarnesChaqueta/Barnes15C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3297,13 +3297,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="46" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="42" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Samsagaz-BARNES/Samsagaz-016.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/BarnesChaqueta/Barnes16C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3318,13 +3318,13 @@ stop
                   <SpriteFolder Name="Sr.Reed">
                     <SubFolders />
                     <Sprites>
-                      <Sprite Slot="47" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="43" Width="48" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-001.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Sr.Reed/Sr.reed.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>48</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3334,13 +3334,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="48" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="44" Width="48" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-002.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Sr.Reed/Sr.reed2.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>48</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3350,13 +3350,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="49" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="45" Width="48" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-003.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Sr.Reed/Sr.reed3.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>48</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3366,13 +3366,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="50" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="46" Width="48" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-004.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Sr.Reed/Sr.reed4.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>48</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3382,13 +3382,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="51" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="47" Width="48" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-005.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Sr.Reed/Sr.reed5.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>48</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3398,13 +3398,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="52" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="48" Width="48" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-006.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Sr.Reed/Sr.reed6.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>48</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3414,13 +3414,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="53" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="49" Width="48" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-007.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Sr.Reed/Sr.reed7.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>48</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3430,13 +3430,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="54" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="50" Width="48" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-008.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Sr.Reed/Sr.reed8.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>48</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3446,13 +3446,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="55" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="51" Width="48" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-009.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Sr.Reed/Sr.reed9.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>48</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3462,13 +3462,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="56" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="52" Width="48" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-010.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Sr.Reed/Sr.reed10.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>48</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3478,13 +3478,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="57" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="53" Width="48" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-011.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Sr.Reed/Sr.reed11.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>48</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3494,13 +3494,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="58" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="54" Width="48" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-012.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Sr.Reed/Sr.reed12.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>48</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3510,13 +3510,18 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="59" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="Paxton">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="55" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-013.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Paxton/Paxton.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3526,13 +3531,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="60" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="56" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-014.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Paxton/Paxton2.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3542,13 +3547,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="61" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="57" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-015.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Paxton/Paxton3.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3558,13 +3563,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="62" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="58" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-016.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Paxton/Paxton4.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3574,13 +3579,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="63" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="59" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-017.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Paxton/Paxton5.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3590,13 +3595,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="64" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="60" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-018.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Paxton/Paxton6.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3606,13 +3611,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="65" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="61" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-019.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Paxton/Paxton7.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3622,13 +3627,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="66" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="62" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-020.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Paxton/Paxton8.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3638,13 +3643,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="67" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="63" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-021.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Paxton/Paxton9.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3654,13 +3659,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="68" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="64" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-022.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Paxton/Paxton10.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3670,13 +3675,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="69" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="65" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-023.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Paxton/Paxton11.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3686,13 +3691,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="70" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="66" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-024.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Paxton/Paxton12.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3702,13 +3707,18 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="71" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="Barnes">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="67" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-025.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Barnes/Barnes.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3718,13 +3728,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="72" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="68" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-026.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Barnes/Barnes2.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3734,13 +3744,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="73" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="69" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-027.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Barnes/Barnes3.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3750,13 +3760,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="74" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="70" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-028.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Barnes/Barnes4.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3766,13 +3776,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="75" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="71" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-029.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Barnes/Barnes5.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3782,13 +3792,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="76" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="72" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-030.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Barnes/Barnes6.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3798,13 +3808,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="77" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="73" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-031.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Barnes/Barnes7.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3814,13 +3824,370 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="78" Width="77" Height="77" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="74" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Gandalf-REED Sprite/Gandalf-032.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/Barnes/Barnes8.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>77</ImportHeight>
-                          <ImportWidth>77</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="75" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Barnes/Barnes9.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="76" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Barnes/Barnes10.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="77" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Barnes/Barnes11.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="78" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Barnes/Barnes12.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="106" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Barnes/Barnes13.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="107" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Barnes/Barnes14.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="108" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Barnes/Barnes15.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="Sr.ReedAbrigo">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="109" Width="63" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Sr.ReedAbrigos/Sr.reedA1.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>63</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="110" Width="63" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Sr.ReedAbrigos/Sr.reedA2.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>63</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="111" Width="63" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Sr.ReedAbrigos/Sr.reedA3.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>63</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="112" Width="63" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Sr.ReedAbrigos/Sr.reedA4.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>63</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="113" Width="63" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Sr.ReedAbrigos/Sr.reedA5.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>63</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="114" Width="63" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Sr.ReedAbrigos/Sr.reedA6.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>63</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="115" Width="63" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Sr.ReedAbrigos/Sr.reedA7.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>63</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="116" Width="63" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Sr.ReedAbrigos/Sr.reedA8.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>63</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="117" Width="63" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Sr.ReedAbrigos/Sr.reedA9.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>63</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="118" Width="63" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Sr.ReedAbrigos/Sr.reedA10.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>63</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="119" Width="63" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Sr.ReedAbrigos/Sr.reedA11.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>63</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="120" Width="63" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Sr.ReedAbrigos/Sr.reedA12.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>63</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="121" Width="63" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Sr.ReedAbrigos/Sr.reedA13.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>63</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="122" Width="63" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Sr.ReedAbrigos/Sr.reedA14.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>63</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="123" Width="63" Height="119" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>RECURSOS AGS/Personajes/Sr.ReedAbrigos/Sr.reedA15.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>119</ImportHeight>
+                          <ImportWidth>63</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -4301,7 +4668,7 @@ stop
         <Views>
           <View>
             <ID>1</ID>
-            <Name>vPaxton</Name>
+            <Name>vPaxtonAbrigo</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -4443,7 +4810,7 @@ stop
           </View>
           <View>
             <ID>2</ID>
-            <Name>vBarnes</Name>
+            <Name>vBarnesAbrigo</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -4453,68 +4820,34 @@ stop
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>31</Image>
+                    <Image>18</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>1</ID>
-                    <Image>32</Image>
+                    <Image>19</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>2</ID>
-                    <Image>33</Image>
+                    <Image>20</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>3</ID>
-                    <Image>34</Image>
+                    <Image>21</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
               </Loop>
               <Loop>
                 <ID>1</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames>
-                  <ViewFrame>
-                    <Delay>0</Delay>
-                    <Flipped>False</Flipped>
-                    <ID>0</ID>
-                    <Image>35</Image>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <Delay>0</Delay>
-                    <Flipped>False</Flipped>
-                    <ID>1</ID>
-                    <Image>36</Image>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <Delay>0</Delay>
-                    <Flipped>False</Flipped>
-                    <ID>2</ID>
-                    <Image>37</Image>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <Delay>0</Delay>
-                    <Flipped>False</Flipped>
-                    <ID>3</ID>
-                    <Image>38</Image>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                </Frames>
-              </Loop>
-              <Loop>
-                <ID>2</ID>
                 <RunNextLoop>False</RunNextLoop>
                 <Frames>
                   <ViewFrame>
@@ -4548,7 +4881,81 @@ stop
                 </Frames>
               </Loop>
               <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>31</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>32</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>33</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>34</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
                 <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>35</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>36</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>37</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>38</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>3</ID>
+            <Name>vSrReed</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
                 <RunNextLoop>False</RunNextLoop>
                 <Frames>
                   <ViewFrame>
@@ -4581,15 +4988,9 @@ stop
                   </ViewFrame>
                 </Frames>
               </Loop>
-            </Loops>
-          </View>
-          <View>
-            <ID>3</ID>
-            <Name>vSrReed</Name>
-            <Loops>
               <Loop>
-                <ID>0</ID>
-                <RunNextLoop>True</RunNextLoop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
                 <Frames>
                   <ViewFrame>
                     <Delay>0</Delay>
@@ -4619,38 +5020,84 @@ stop
                     <Image>50</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>0</ID>
+                    <Image>47</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>1</ID>
+                    <Image>48</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>2</ID>
+                    <Image>49</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>3</ID>
+                    <Image>50</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
-                    <ID>4</ID>
+                    <ID>0</ID>
                     <Image>51</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
-                    <ID>5</ID>
+                    <ID>1</ID>
                     <Image>52</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
-                    <ID>6</ID>
+                    <ID>2</ID>
                     <Image>53</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
-                    <ID>7</ID>
+                    <ID>3</ID>
                     <Image>54</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
               </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>4</ID>
+            <Name>vPaxton</Name>
+            <Loops>
               <Loop>
-                <ID>1</ID>
+                <ID>0</ID>
                 <RunNextLoop>False</RunNextLoop>
                 <Frames>
                   <ViewFrame>
@@ -4681,31 +5128,37 @@ stop
                     <Image>58</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
-                    <ID>4</ID>
+                    <ID>0</ID>
                     <Image>59</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
-                    <ID>5</ID>
+                    <ID>1</ID>
                     <Image>60</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
-                    <ID>6</ID>
+                    <ID>2</ID>
                     <Image>61</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
-                    <ID>7</ID>
+                    <ID>3</ID>
                     <Image>62</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
@@ -4713,6 +5166,40 @@ stop
               </Loop>
               <Loop>
                 <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>0</ID>
+                    <Image>59</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>1</ID>
+                    <Image>60</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>2</ID>
+                    <Image>61</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>3</ID>
+                    <Image>62</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
                 <RunNextLoop>False</RunNextLoop>
                 <Frames>
                   <ViewFrame>
@@ -4743,38 +5230,50 @@ stop
                     <Image>66</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>5</ID>
+            <Name>vBarnes</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
-                    <ID>4</ID>
+                    <ID>0</ID>
                     <Image>67</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
-                    <ID>5</ID>
+                    <ID>1</ID>
                     <Image>68</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
-                    <ID>6</ID>
+                    <ID>2</ID>
                     <Image>69</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
-                    <ID>7</ID>
+                    <ID>3</ID>
                     <Image>70</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
               </Loop>
               <Loop>
-                <ID>3</ID>
+                <ID>1</ID>
                 <RunNextLoop>False</RunNextLoop>
                 <Frames>
                   <ViewFrame>
@@ -4805,32 +5304,214 @@ stop
                     <Image>74</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>0</ID>
+                    <Image>71</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>1</ID>
+                    <Image>72</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>2</ID>
+                    <Image>73</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>3</ID>
+                    <Image>74</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
-                    <ID>4</ID>
+                    <ID>0</ID>
                     <Image>75</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
-                    <ID>5</ID>
+                    <ID>1</ID>
                     <Image>76</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
-                    <ID>6</ID>
+                    <ID>2</ID>
                     <Image>77</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
-                    <ID>7</ID>
+                    <ID>3</ID>
                     <Image>78</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>6</ID>
+            <Name>vSrReedAbrigos</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>109</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>110</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>111</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>112</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>113</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>114</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>115</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>116</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>0</ID>
+                    <Image>113</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>1</ID>
+                    <Image>114</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>2</ID>
+                    <Image>115</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>3</ID>
+                    <Image>116</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>117</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>118</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>119</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>120</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -4840,9 +5521,7 @@ stop
         </Views>
       </ViewFolder>
     </Views>
-    <DeletedViews>
-      <ViewID>4</ViewID>
-    </DeletedViews>
+    <DeletedViews />
     <Scripts>
       <ScriptFolder Name="Main">
         <SubFolders />
