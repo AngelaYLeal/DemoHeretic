@@ -1894,8 +1894,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>64536</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>555</StartX>
-            <StartY>390</StartY>
+            <StartX>591</StartX>
+            <StartY>438</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -1938,8 +1938,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>1048</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>598</StartX>
-            <StartY>422</StartY>
+            <StartX>565</StartX>
+            <StartY>387</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -1982,8 +1982,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>48599</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>462</StartX>
-            <StartY>392</StartY>
+            <StartX>477</StartX>
+            <StartY>401</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
