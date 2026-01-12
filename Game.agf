@@ -1737,8 +1737,8 @@
               <InventoryItem>
                 <CursorImage>105</CursorImage>
                 <Description>LLAVE</Description>
-                <HotspotX>24</HotspotX>
-                <HotspotY>13</HotspotY>
+                <HotspotX>23</HotspotX>
+                <HotspotY>16</HotspotY>
                 <ID>11</ID>
                 <Image>105</Image>
                 <Name>iLlave</Name>
