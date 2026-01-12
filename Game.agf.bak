@@ -1904,7 +1904,7 @@
             <SpeechView>0</SpeechView>
             <StartX>244</StartX>
             <StartY>446</StartY>
-            <StartingRoom>6</StartingRoom>
+            <StartingRoom>5</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <TurnWhenFacing>True</TurnWhenFacing>
@@ -1948,7 +1948,7 @@
             <SpeechView>0</SpeechView>
             <StartX>425</StartX>
             <StartY>443</StartY>
-            <StartingRoom>6</StartingRoom>
+            <StartingRoom>5</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <TurnWhenFacing>True</TurnWhenFacing>
@@ -4698,6 +4698,38 @@ stop
                     </Source>
                   </Sprite>
                   <Sprite Slot="107" Width="306" Height="38" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>RECURSOS AGS/Fondos/Press.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>38</ImportHeight>
+                      <ImportWidth>306</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>True</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <TransparentColorIndex>0</TransparentColorIndex>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="55" Width="171" Height="86" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>RECURSOS AGS/Fondos/HERETIC.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>86</ImportHeight>
+                      <ImportWidth>171</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>True</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <TransparentColorIndex>0</TransparentColorIndex>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="56" Width="306" Height="38" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>RECURSOS AGS/Fondos/Press.png</FileName>
                       <OffsetX>0</OffsetX>
