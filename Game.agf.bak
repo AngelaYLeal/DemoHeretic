@@ -44,7 +44,7 @@
       <GameTextEncoding>utf-8</GameTextEncoding>
       <Genre>Adventure</Genre>
       <GlobalSpeechAnimationDelay>5</GlobalSpeechAnimationDelay>
-      <HandleInvClicksInScript>True</HandleInvClicksInScript>
+      <HandleInvClicksInScript>False</HandleInvClicksInScript>
       <InventoryCursors>True</InventoryCursors>
       <InventoryHotspotMarkerCrosshairColor>0</InventoryHotspotMarkerCrosshairColor>
       <InventoryHotspotMarkerDotColor>0</InventoryHotspotMarkerDotColor>
@@ -2065,7 +2065,32 @@
     <PlayerCharacter>0</PlayerCharacter>
     <Dialogs>
       <DialogFolder Name="Main">
-        <SubFolders />
+        <SubFolders>
+          <DialogFolder Name="room 1">
+            <SubFolders />
+            <Dialogs>
+              <Dialog>
+                <ID>0</ID>
+                <Name>dDialog1</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+return
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text />
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+            </Dialogs>
+          </DialogFolder>
+        </SubFolders>
         <Dialogs />
       </DialogFolder>
     </Dialogs>
