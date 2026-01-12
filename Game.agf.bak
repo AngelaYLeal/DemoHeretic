@@ -1298,71 +1298,15 @@
                 <ZOrder>3</ZOrder>
               </GUIButton>
               <GUIButton>
-                <ClickAction>SetCursorMode</ClickAction>
-                <Clickable>True</Clickable>
-                <ClipImage>False</ClipImage>
-                <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>20</Height>
-                <ID>4</ID>
-                <Image>104</Image>
-                <Left>356</Left>
-                <Locked>False</Locked>
-                <MouseoverImage>0</MouseoverImage>
-                <Name>bUsar</Name>
-                <NewModeNumber>4</NewModeNumber>
-                <OnClick />
-                <PushedImage>0</PushedImage>
-                <Text>Usar</Text>
-                <TextAlignment>MiddleCenter</TextAlignment>
-                <TextColor>64520</TextColor>
-                <TextPaddingHorizontal>2</TextPaddingHorizontal>
-                <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>53</Top>
-                <Translated>True</Translated>
-                <Visible>True</Visible>
-                <Width>67</Width>
-                <WrapText>False</WrapText>
-                <ZOrder>4</ZOrder>
-              </GUIButton>
-              <GUIButton>
-                <ClickAction>SetCursorMode</ClickAction>
-                <Clickable>True</Clickable>
-                <ClipImage>False</ClipImage>
-                <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>20</Height>
-                <ID>5</ID>
-                <Image>104</Image>
-                <Left>438</Left>
-                <Locked>False</Locked>
-                <MouseoverImage>0</MouseoverImage>
-                <Name>bCoger</Name>
-                <NewModeNumber>5</NewModeNumber>
-                <OnClick />
-                <PushedImage>0</PushedImage>
-                <Text>Coger</Text>
-                <TextAlignment>MiddleCenter</TextAlignment>
-                <TextColor>64520</TextColor>
-                <TextPaddingHorizontal>2</TextPaddingHorizontal>
-                <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>53</Top>
-                <Translated>True</Translated>
-                <Visible>True</Visible>
-                <Width>67</Width>
-                <WrapText>False</WrapText>
-                <ZOrder>5</ZOrder>
-              </GUIButton>
-              <GUIButton>
                 <ClickAction>RunScript</ClickAction>
                 <Clickable>True</Clickable>
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
                 <Height>64</Height>
-                <ID>6</ID>
+                <ID>4</ID>
                 <Image>102</Image>
-                <Left>536</Left>
+                <Left>537</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bBolso</Name>
@@ -1374,12 +1318,12 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>4</Top>
+                <Top>10</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>73</Width>
                 <WrapText>False</WrapText>
-                <ZOrder>6</ZOrder>
+                <ZOrder>4</ZOrder>
               </GUIButton>
             </Controls>
           </GUIMain>
@@ -2083,6 +2027,11 @@ cBarnes: La señora descansa en la estrella mientras observa la Luna...
 cPaxton: Gracias.
 return
 @2
+cPaxton: Dejamos las bicicletas con candado afuera, ¿verdad?
+cBarnes: Sí y la llave está en mi abrigo.
+return
+
+@3
 stop
 ]]></Script>
                 <DialogOptions>
@@ -2094,6 +2043,12 @@ stop
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
+                    <Say>False</Say>
+                    <Show>True</Show>
+                    <Text xml:space="preserve">Hablar sobre las bicicletas</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
                     <Say>False</Say>
                     <Show>True</Show>
                     <Text>Salir</Text>
@@ -2905,13 +2860,13 @@ stop
                   <SpriteFolder Name="Paxton">
                     <SubFolders />
                     <Sprites>
-                      <Sprite Slot="2" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="2" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Frodo-PAXTON Sprite/Frodo-001.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/PaxtonChaqueta/Paxton1C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -2921,13 +2876,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="3" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="3" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Frodo-PAXTON Sprite/Frodo-002.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/PaxtonChaqueta/Paxton2C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -2937,13 +2892,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="5" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="5" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Frodo-PAXTON Sprite/Frodo-003.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/PaxtonChaqueta/Paxton3C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -2953,13 +2908,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="6" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="6" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Frodo-PAXTON Sprite/Frodo-004.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/PaxtonChaqueta/Paxton4C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -2969,13 +2924,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="7" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="7" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Frodo-PAXTON Sprite/Frodo-005.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/PaxtonChaqueta/Paxton5C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -2985,13 +2940,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="8" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="8" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Frodo-PAXTON Sprite/Frodo-006.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/PaxtonChaqueta/Paxton6C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3001,13 +2956,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="9" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="9" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Frodo-PAXTON Sprite/Frodo-007.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/PaxtonChaqueta/Paxton7C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3017,13 +2972,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="10" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="10" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Frodo-PAXTON Sprite/Frodo-008.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/PaxtonChaqueta/Paxton8C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3033,13 +2988,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="11" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="11" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Frodo-PAXTON Sprite/Frodo-009.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/PaxtonChaqueta/Paxton9C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3049,13 +3004,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="12" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="12" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Frodo-PAXTON Sprite/Frodo-010.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/PaxtonChaqueta/Paxton10C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3065,13 +3020,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="13" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="13" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Frodo-PAXTON Sprite/Frodo-011.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/PaxtonChaqueta/Paxton11C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -3081,77 +3036,13 @@ stop
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="14" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="14" Width="46" Height="100" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>RECURSOS AGS/Personajes/Frodo-PAXTON Sprite/Frodo-012.png</FileName>
+                          <FileName>RECURSOS AGS/Personajes/PaxtonChaqueta/Paxton12C.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
-                          <ImportAsTile>False</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>True</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <TransparentColorIndex>0</TransparentColorIndex>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                      <Sprite Slot="18" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>RECURSOS AGS/Personajes/Frodo-PAXTON Sprite/Frodo-013.png</FileName>
-                          <OffsetX>0</OffsetX>
-                          <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
-                          <ImportAsTile>False</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>True</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <TransparentColorIndex>0</TransparentColorIndex>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                      <Sprite Slot="19" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>RECURSOS AGS/Personajes/Frodo-PAXTON Sprite/Frodo-014.png</FileName>
-                          <OffsetX>0</OffsetX>
-                          <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
-                          <ImportAsTile>False</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>True</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <TransparentColorIndex>0</TransparentColorIndex>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                      <Sprite Slot="20" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>RECURSOS AGS/Personajes/Frodo-PAXTON Sprite/Frodo-015.png</FileName>
-                          <OffsetX>0</OffsetX>
-                          <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
-                          <ImportAsTile>False</ImportAsTile>
-                          <Frame>0</Frame>
-                          <RemapToGamePalette>True</RemapToGamePalette>
-                          <RemapToRoomPalette>False</RemapToRoomPalette>
-                          <ImportMethod>LeaveAsIs</ImportMethod>
-                          <TransparentColorIndex>0</TransparentColorIndex>
-                          <ImportAlphaChannel>True</ImportAlphaChannel>
-                        </Source>
-                      </Sprite>
-                      <Sprite Slot="21" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                        <Source>
-                          <FileName>RECURSOS AGS/Personajes/Frodo-PAXTON Sprite/Frodo-016.png</FileName>
-                          <OffsetX>0</OffsetX>
-                          <OffsetY>0</OffsetY>
-                          <ImportHeight>48</ImportHeight>
-                          <ImportWidth>32</ImportWidth>
+                          <ImportHeight>100</ImportHeight>
+                          <ImportWidth>46</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -4410,7 +4301,7 @@ stop
         <Views>
           <View>
             <ID>1</ID>
-            <Name>VIEW1</Name>
+            <Name>vPaxton</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -4486,6 +4377,40 @@ stop
                 <Frames>
                   <ViewFrame>
                     <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>0</ID>
+                    <Image>7</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>1</ID>
+                    <Image>8</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>2</ID>
+                    <Image>9</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>3</ID>
+                    <Image>10</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
                     <Image>11</Image>
@@ -4514,45 +4439,11 @@ stop
                   </ViewFrame>
                 </Frames>
               </Loop>
-              <Loop>
-                <ID>3</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames>
-                  <ViewFrame>
-                    <Delay>0</Delay>
-                    <Flipped>False</Flipped>
-                    <ID>0</ID>
-                    <Image>18</Image>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <Delay>0</Delay>
-                    <Flipped>False</Flipped>
-                    <ID>1</ID>
-                    <Image>19</Image>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <Delay>0</Delay>
-                    <Flipped>False</Flipped>
-                    <ID>2</ID>
-                    <Image>20</Image>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <Delay>0</Delay>
-                    <Flipped>False</Flipped>
-                    <ID>3</ID>
-                    <Image>21</Image>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                </Frames>
-              </Loop>
             </Loops>
           </View>
           <View>
             <ID>2</ID>
-            <Name>View2</Name>
+            <Name>vBarnes</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -4694,7 +4585,7 @@ stop
           </View>
           <View>
             <ID>3</ID>
-            <Name>View3</Name>
+            <Name>vSrReed</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -4949,7 +4840,9 @@ stop
         </Views>
       </ViewFolder>
     </Views>
-    <DeletedViews />
+    <DeletedViews>
+      <ViewID>4</ViewID>
+    </DeletedViews>
     <Scripts>
       <ScriptFolder Name="Main">
         <SubFolders />
