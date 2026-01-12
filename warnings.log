@@ -1,1 +1,2 @@
-Game : (room:2) [room2.asc:324] GUI 0 is set as text window but is not actually a text window GUI
+Game : (room:4) [room4.asc:41] Character.Walk: specified character cSrReed not in current room (is in 2, current room 4)
+Game : (room:4) [room4.asc:62] Character.Walk: specified character cSrReed not in current room (is in 2, current room 4)
