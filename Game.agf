@@ -1735,12 +1735,12 @@
                 </Interactions>
               </InventoryItem>
               <InventoryItem>
-                <CursorImage>0</CursorImage>
+                <CursorImage>105</CursorImage>
                 <Description>LLAVE</Description>
-                <HotspotX>0</HotspotX>
-                <HotspotY>0</HotspotY>
+                <HotspotX>24</HotspotX>
+                <HotspotY>13</HotspotY>
                 <ID>11</ID>
-                <Image>0</Image>
+                <Image>105</Image>
                 <Name>iLlave</Name>
                 <PlayerStartsWithItem>False</PlayerStartsWithItem>
                 <Properties />
@@ -1950,7 +1950,7 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>64536</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>565</StartX>
+            <StartX>566</StartX>
             <StartY>400</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
@@ -4096,6 +4096,22 @@
                       <OffsetY>0</OffsetY>
                       <ImportHeight>23</ImportHeight>
                       <ImportWidth>31</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>True</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <TransparentColorIndex>0</TransparentColorIndex>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="105" Width="32" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>RECURSOS AGS/Objetos/Room 1 objetos/Llave.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>32</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>True</RemapToGamePalette>
