@@ -1413,7 +1413,7 @@
                 <Height>46</Height>
                 <ID>0</ID>
                 <Image>0</Image>
-                <Left>25</Left>
+                <Left>30</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bot1</Name>
@@ -1425,7 +1425,7 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>46</Top>
+                <Top>48</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>56</Width>
@@ -1441,7 +1441,7 @@
                 <Height>46</Height>
                 <ID>1</ID>
                 <Image>0</Image>
-                <Left>25</Left>
+                <Left>30</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bot2</Name>
@@ -1453,7 +1453,7 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>117</Top>
+                <Top>121</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>56</Width>
@@ -1469,7 +1469,7 @@
                 <Height>46</Height>
                 <ID>2</ID>
                 <Image>0</Image>
-                <Left>25</Left>
+                <Left>30</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bot3</Name>
@@ -1481,7 +1481,7 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>189</Top>
+                <Top>196</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>56</Width>
@@ -2376,7 +2376,7 @@
             <Dialogs>
               <Dialog>
                 <ID>0</ID>
-                <Name>dBarnes</Name>
+                <Name>dBarnes1</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
@@ -2411,7 +2411,7 @@ stop
                   <DialogOption>
                     <ID>3</ID>
                     <Say>False</Say>
-                    <Show>True</Show>
+                    <Show>False</Show>
                     <Text>Salir</Text>
                   </DialogOption>
                 </DialogOptions>
