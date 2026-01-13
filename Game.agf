@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>1</AudioIndexer>
+      <AudioIndexer>4</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets>Windows</BuildTargets>
@@ -1991,8 +1991,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>64536</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>244</StartX>
-            <StartY>446</StartY>
+            <StartX>224</StartX>
+            <StartY>440</StartY>
             <StartingRoom>6</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -2035,8 +2035,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>1048</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>429</StartX>
-            <StartY>440</StartY>
+            <StartX>430</StartX>
+            <StartY>438</StartY>
             <StartingRoom>6</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -8866,10 +8866,49 @@ stop
                 <Type>2</Type>
                 <FileLastModifiedDate>2026-01-12 22:53:40Z</FileLastModifiedDate>
               </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>1</ID>
+                <Index>2</Index>
+                <ScriptName>aDark_atmosphere_with_rain_352570___INTRO</ScriptName>
+                <SourceFileName xml:space="preserve">RECURSOS AGS/Musica/dark-atmosphere-with-rain-352570 - INTRO.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2026-01-13 12:36:59Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>2</ID>
+                <Index>3</Index>
+                <ScriptName>aWalen___Castle__freetouse_com____game_start</ScriptName>
+                <SourceFileName xml:space="preserve">RECURSOS AGS/Musica/Walen - Castle (freetouse.com) - game start.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2026-01-13 12:38:32Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>3</ID>
+                <Index>4</Index>
+                <ScriptName>aZambolino___Spiritus_in_Me__freetouse_com__credits</ScriptName>
+                <SourceFileName xml:space="preserve">RECURSOS AGS/Musica/Zambolino - Spiritus in Me (freetouse.com)-credits.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2026-01-13 12:15:09Z</FileLastModifiedDate>
+              </AudioClip>
             </AudioClips>
             <AudioClipFolder>
               <DefaultBundlingType>InSeparateVOX</DefaultBundlingType>
-              <DefaultPriority>Inherit</DefaultPriority>
+              <DefaultPriority>High</DefaultPriority>
               <DefaultRepeat>True</DefaultRepeat>
               <DefaultType>2</DefaultType>
               <DefaultVolume>100</DefaultVolume>
@@ -8890,9 +8929,9 @@ stop
         <AudioClips />
         <AudioClipFolder>
           <DefaultBundlingType>InGameEXE</DefaultBundlingType>
-          <DefaultPriority>Normal</DefaultPriority>
+          <DefaultPriority>High</DefaultPriority>
           <DefaultRepeat>False</DefaultRepeat>
-          <DefaultType>1</DefaultType>
+          <DefaultType>2</DefaultType>
           <DefaultVolume>100</DefaultVolume>
         </AudioClipFolder>
       </AudioClipFolder>
