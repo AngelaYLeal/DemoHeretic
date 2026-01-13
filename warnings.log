@@ -1,9 +1,1 @@
-Game : (room:6) [room6.asc:15] GUI 0 is set as text window but is not actually a text window GUI
-Game : (room:6) [room6.asc:16] GUI 0 is set as text window but is not actually a text window GUI
-Game : (room:6) [room6.asc:17] GUI 0 is set as text window but is not actually a text window GUI
-Game : (room:6) [room6.asc:19] GUI 0 is set as text window but is not actually a text window GUI
-Game : (room:6) [room6.asc:20] GUI 0 is set as text window but is not actually a text window GUI
-Game : (room:6) [room6.asc:21] GUI 0 is set as text window but is not actually a text window GUI
-Game : (room:6) [room6.asc:23] GUI 0 is set as text window but is not actually a text window GUI
-Game : (room:6) [room6.asc:25] GUI 0 is set as text window but is not actually a text window GUI
-Game : (room:6) [room6.asc:40] GUI 0 is set as text window but is not actually a text window GUI
+Game : (room:1) [room1.asc:12] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
