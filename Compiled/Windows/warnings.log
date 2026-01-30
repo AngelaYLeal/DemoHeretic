@@ -1,0 +1,2 @@
+Game : (room:1) [room1.asc:15] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:1) [room1.asc:16] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
