@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>4</AudioIndexer>
+      <AudioIndexer>7</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets>Windows</BuildTargets>
@@ -8855,6 +8855,30 @@ stop
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
+                <FileName>Typewriter.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>869065321</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>Typewriter.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>869065321</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
                 <FileName>GlobalScript.ash</FileName>
                 <Name />
                 <Description />
@@ -8936,6 +8960,19 @@ stop
                 <SourceFileName xml:space="preserve">RECURSOS AGS/Musica/Zambolino - Spiritus in Me (freetouse.com)-credits.mp3</SourceFileName>
                 <Type>2</Type>
                 <FileLastModifiedDate>2026-01-13 20:07:40Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>4</ID>
+                <Index>6</Index>
+                <ScriptName>aPeaceful_nature_ambient_tranquil_sounds_326833_EndGame</ScriptName>
+                <SourceFileName xml:space="preserve">RECURSOS AGS/Musica/peaceful-nature-ambient-tranquil-sounds-326833_EndGame.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2026-01-30 17:07:51Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
