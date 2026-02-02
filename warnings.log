@@ -1,1 +1,2 @@
-Game : (room:8) [room8.asc:48] WARNING: Character cPaxton current view 1 does not have necessary loop 4; switching to loop 0.
+Game : (room:1) [room1.asc:23] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:1) [room1.asc:24] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
